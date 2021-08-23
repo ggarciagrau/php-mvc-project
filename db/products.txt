@@ -1,0 +1,6 @@
+id;description;price;stock
+2;pen;10;40
+3;book;5;23
+4;book 2;5;30
+5;test5;5;5
+55555;rrrrrr;55555;55555

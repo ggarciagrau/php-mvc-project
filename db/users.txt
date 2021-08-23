@@ -1,0 +1,4 @@
+id;username;password;role;name;surname
+1;gerardgg;gerardpasswd;admin;Gerard;Garcia Grau
+2;employee;employeepasswd;staff;Employee;Employee Employee
+4;usertest2;usertest;staff;usertest;usertest

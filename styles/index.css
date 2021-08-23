@@ -1,0 +1,142 @@
+.correctText {
+    background-color: green;
+    padding: 0.5rem;
+    color: white;
+    display: inline-block;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+}
+
+.errorText {
+    background-color: red;
+    padding: 0.5rem;
+    color: white;
+    display: inline-block;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+}
+
+/* || Generics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* || Utilities */
+button, .button {
+    background: none;
+    color: white !important;
+    border:0.05em solid #FFFFFF;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0.5rem;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.one-rem-margin {
+    margin: 1rem;
+}
+
+.low-l-margin {
+    margin-left: 0.5rem;
+}
+/* || Body */
+body {
+    background-color: #404040;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* || Header */
+header {
+    padding: 2rem;
+    background-color: #7d7d7d;
+}
+
+h1 {
+    padding: 2rem;
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+}
+#logoImg {
+    width: 2rem;
+}
+
+/* || Main content */
+.contentWrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titleContainer {
+    padding: 1rem;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img:hover {
+    border: 0.25rem solid red;
+    cursor: pointer;
+}
+
+input, button {
+    color: black;
+}
+
+/* || Menu */
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+li a{
+    padding: 1rem;
+}
+
+/* || Tables */
+table {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+table, tr, td, th {
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+td {
+    padding: 1rem;
+}
+
+/* || Forms */
+select {
+    color: black;
+}
+
+label {
+    padding: 0rem 1rem;
+}
+
+fieldset > div {
+    margin: 0.5rem;
+}
