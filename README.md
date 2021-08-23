@@ -7,7 +7,7 @@ Project written in native PHP. It consists of a couple of CRUDs of users and pro
 
 * MVC pattern
 * DAO pattern
-* Facoria pattern
+* Facory pattern
 
 # Usage
 
